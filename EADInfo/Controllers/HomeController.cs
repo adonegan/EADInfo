@@ -25,6 +25,7 @@ namespace EADInfo.Controllers
 
         public IActionResult EADInfo()
         {
+            ViewBag.pageText = "This text is generated through ViewBag";
             return View();
         }
 
